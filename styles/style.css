@@ -1,5 +1,26 @@
 body{
+    background-color: rgb(27, 29, 27);
     margin: 0 auto;
     padding:0 16px;
-    
+    box-sizing:border-box;
+}
+.lampPicture{
+display: inline;
+position: relative;
+left: 100px;
+top: 50px;
+}
+.lampImage{
+width: 200px;  
+}
+.clickBtn{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    background-color: rgb(241, 108, 13);
+    outline: none;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px #fff;
 }
