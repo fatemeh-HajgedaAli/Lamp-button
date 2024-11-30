@@ -5,6 +5,7 @@ let lampFlag=false
 function turnOnOff(){
 if(lampFlag){
     clickBtn.innerHTML="turn on"
+    clickBtn.style.padding='15px'
     lampImage.setAttribute('src','pictures/offLamp.png')
     lampFlag=false
 }else{

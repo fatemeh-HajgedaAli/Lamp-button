@@ -1,26 +1,33 @@
 body{
-    background-color: rgb(27, 29, 27);
-    margin: 0 auto;
-    padding:0 16px;
-    box-sizing:border-box;
+box-sizing:border-box;
+
+}
+.container{
+margin: 0 auto;
+background-color: rgb(27, 29, 27);
+width: 500px;
+height: 500px;
+border-radius: 100%;
 }
 .lampPicture{
 display: inline;
 position: relative;
-left: 100px;
+left: 150px;
 top: 50px;
 }
 .lampImage{
 width: 200px;  
 }
 .clickBtn{
-    position: absolute;
-    top: 350px;
-    left: 300px;
-    background-color: rgb(241, 108, 13);
-    outline: none;
-    padding: 10px;
-    color: #ffff;
-    border-radius: 15px;
-    box-shadow: 1px 1px 15px #fff;
+position: absolute;
+top: 440px;
+left: 865px;
+background-color: rgb(241, 108, 13);
+outline: none;
+padding: 12px;
+color: #ffff;
+border-radius: 5px;
+}
+.clickBtn:hover{
+ box-shadow: 1px 1px 15px #fff;  
 }
